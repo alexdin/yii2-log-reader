@@ -1,0 +1,21 @@
+{
+  "name":"alexdin/yii2-log-reader",
+  "description": "PHP Yii2. This is simple module for log reading  from admin menu ",
+  "keywords": ["yii2","session","alexdin","log-reader","log"],
+  "support": {
+    "source": "https://github.com/alexdin/yii2-log-reader"
+  },
+  "authors": [
+    {
+      "name":"Alexey Dinachuk",
+      "email": "mralexdin@gmail.com"
+    }
+  ],
+  "require": {
+    "php":">=5.6",
+    "yiisoft/yii2": "~2.0.4"
+  },
+  "autoload": {
+    "psr-4": { "alexdin\\logreader\\": "" }
+  }
+}
