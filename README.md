@@ -18,7 +18,7 @@ Add into your admin config this module with params.
 ```php
     'modules' => [
        'log-reader'=>[
-           'class'=>'common\components\LogReader\Module',
+           'class'=>'alexdin\logreader\Module',
            'params'=>[
                'logs'=>[
                    '@backend',
