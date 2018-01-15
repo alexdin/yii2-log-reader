@@ -60,7 +60,7 @@ class ReadController extends \yii\web\Controller
     public function actionView($id,$lines = 300)
     {
         if(!isset($this->module->params['logs'][$id])){
-            throw  new NotFoundHttpException('Настройки для отображения лога не найдены');
+            throw  new NotFoundHttpException('Settings for log display not found');
         }
 
         $filePath = $this->module->getFilePathFromParameter($this->module->params['logs'][$id]);
@@ -71,7 +71,7 @@ class ReadController extends \yii\web\Controller
     public function actionViewFull($id)
     {
         if(!isset($this->module->params['logs'][$id])){
-            throw  new NotFoundHttpException('Настройки для отображения лога не найдены');
+            throw  new NotFoundHttpException('Settings for log display not found');
         }
 
         $filePath = $this->module->getFilePathFromParameter($this->module->params['logs'][$id]);
